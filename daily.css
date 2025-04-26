@@ -1,0 +1,219 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: bisque;
+    padding-top: 4rem;
+    
+}
+
+/*nav section*/
+nav{
+    padding: 0.1rem 0 0 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 60px; 
+    background-color:  rgb(186, 117, 33);
+    z-index: 1000;
+    
+  
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    
+}
+nav li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    
+    
+}
+/*logo*/
+
+.pray {
+    height: 4rem;
+    position: relative;
+    bottom: 1em;
+    right: 4em;
+}
+
+/*predict Hero*/
+.wrapper{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/*predict styling*/
+
+.day{
+    background-image: url(./images/angels.jpg);
+    position: relative;
+    height: 55vh;;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    font-size: 2rem;
+    
+}
+
+#speak input{
+    margin-inline: 1rem;
+    width: 10rem;
+}
+#speak label{
+    font-weight: bold;
+}
+
+.day::before{
+    content: '';
+    position: absolute; /* Position it absolutely inside the .day element */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0.5);
+    opacity: 0.3;
+    z-index: 1;
+    
+}
+
+#speak{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 13rem;
+    z-index: 2;
+    color: white;
+    
+}
+
+
+
+#holla{
+    color:azure;
+    font-size: 70px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 8rem;
+    z-index: 3;
+}
+
+#saveMessage{
+    color: white;
+    position: relative;
+    top: 15rem;
+    left: 1rem;
+    font-weight: bolder;
+    z-index: 3; 
+    font-size: 2rem;
+    padding: 0 25rem;
+}
+
+/*homepage hero*/
+
+.hero{
+    width: 100%;
+    position:relative;
+    background-image: url("/images/angel2.jpeg");
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 55vh;
+    margin-top: 1.5rem;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.hero::before{
+    
+    content: '';
+    position: absolute; /* Position it absolutely inside the .day element */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0.5);
+    opacity: 0.3;
+    z-index: 1;
+
+}
+
+
+
+
+
+ h1{
+    position: relative;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    color: white;
+padding: 5rem; 
+font-size: 3rem;
+z-index: 3;
+
+
+    
+}
+
+
+
+
+
+.hit{
+    text-decoration: none;
+    color: azure;
+    z-index: 3;
+
+    
+}
+
+.hit:hover{
+    color: gold;
+}
+
+/* talk section*/
+.talk{
+    display: inline-flex;
+    justify-content: space-between;
+    padding: 0 0rem 3rem 1rem;
+    margin-top: 3rem;
+}
+
+.image{
+    width: 50%;
+}
+
+.counsel{
+    padding: 9rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: ;
+}
+
+/*footer*/
+footer{
+    border: 1px solid black;
+    padding: 1rem;
+    background-color: rgb(186, 117, 33);
+    text-align: center;
+    position: relative;
+    top:
+    
+}
+
