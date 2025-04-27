@@ -129,7 +129,7 @@ nav li a{
 .hero{
     width: 100%;
     position:relative;
-    background-image: url("/images/angel2.jpeg");
+    background-image: url("images/angel2.jpeg");
     top: 0;
     left: 0;
     width: 100%;
